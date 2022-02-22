@@ -233,7 +233,7 @@ pesquisarDespesa = () => {
 
         document.getElementById('modal-titulo').innerHTML = 'Erro ao pesquisar despesa!'
 		document.getElementById('modal-titulo-div').className = 'modal-header text-danger'
-		document.getElementById('modal-conteudo').innerHTML = 'Pelo menos um dos campos deve ser preenchido.'
+		document.getElementById('modal-conteudo').innerHTML = 'O campo ano deve ser preenchido.'
 		document.getElementById('modal-btn').innerHTML = 'Voltar'
 		document.getElementById('modal-btn').className = 'btn btn-danger'
 
